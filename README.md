@@ -24,14 +24,14 @@ chmod +x setup-syslog-collect.sh
 Check with SOClogix if you need the deployment script and key.
 
 2. Configure a Windows Firewall Rule to allow traffic from the client(s) over port 514
-2.a. Open the New Inbound Rule Wizard
-2.b. Select Custom Rule
-2.c. Select All Programs
-2.d. Set Protocol Type to UDP and Local Port to Specific Port with 514 entered into the field
-2.e. It is recommended that you input the client(s) IP under 'Which remote IP addresses does this rule apply to?' in order to restrict what machines can send syslog.
-2.f. Select Allow the connection
-2.g. Apply the rule to all (Domain, Private, and Public) unless you know which your client(s) is identified as and prefer to restrict this.
-2.h. Input a name and description for this rule.
+- Open the New Inbound Rule Wizard
+- Select Custom Rule
+- Select All Programs
+- Set Protocol Type to UDP and Local Port to Specific Port with 514 entered into the field
+- It is recommended that you input the client(s) IP under 'Which remote IP addresses does this rule apply to?' in order to restrict what machines can send syslog.
+- Select Allow the connection
+- Apply the rule to all (Domain, Private, and Public) unless you know which your client(s) is identified as and prefer to restrict this.
+- Input a name and description for this rule.
  
 3. Designate this agent as a Utility Agent in Todyl.
 
