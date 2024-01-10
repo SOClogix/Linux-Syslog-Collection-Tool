@@ -6,22 +6,22 @@
 
 # Follow these steps on the Linux Client:
 1. Ensure git is installed on the linux client
-sudo apt install -y git
+- sudo apt install -y git
 
 2. Clone the git repository and enter the directory
-git clone https://github.com/SOClogix/Linux-Syslog-Collection-Tool.git && cd Linux-Syslog-Collection-Tool
+- git clone https://github.com/SOClogix/Linux-Syslog-Collection-Tool.git && cd Linux-Syslog-Collection-Tool
 
 3. Make the script executable
-chmod +x setup-syslog-collect.sh
+- chmod +x setup-syslog-collect.sh
 
 4. Run the script
-./setup-syslog-collect.sh
+- ./setup-syslog-collect.sh
 
 5. Follow the prompts; enter sudo/admin credentials; enter the IP for the server that will receive the syslog.
 
 # Follow these steps on the remote server receiving the syslog from the Linux client(s). Windows Server preferred and it is recommended to use a server on the same local network as the client(s)
 1. Install or Verify that the Todyl SGN Connect Agent is installed.
-Check with SOClogix if you need the deployment script and key.
+- Check with SOClogix if you need the deployment script and key.
 
 2. Configure a Windows Firewall Rule to allow traffic from the client(s) over port 514
 - Open the New Inbound Rule Wizard
