@@ -6,7 +6,7 @@
 
 # Follow these steps on the Linux Client:
 1. Ensure git is installed on the linux client
-- sudo apt install -y git
+- YourCopyableTextblock sudo apt install -y git
 
 2. Clone the git repository and enter the directory
 - git clone https://github.com/SOClogix/Linux-Syslog-Collection-Tool.git && cd Linux-Syslog-Collection-Tool
