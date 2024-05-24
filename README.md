@@ -21,7 +21,7 @@
 
 # Follow these steps on the remote server receiving the syslog from the Linux client(s). Windows Server preferred and it is recommended to use a server on the same local network as the client(s)
 1. Install or Verify that the Todyl SGN Connect Agent is installed.
-- Check with SOClogix if you need the deployment script and key.
+- Check with your vendor if you need the deployment script and key.
 
 2. Configure a Windows Firewall Rule to allow traffic from the client(s) over port 514
 - Open the New Inbound Rule Wizard
